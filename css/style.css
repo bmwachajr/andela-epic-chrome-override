@@ -1,13 +1,17 @@
+html{
+    background:url(../bg-main.png) no-repeat center center fixed;
+    background-size: cover;
+}
 body
 {
     padding-top: 20px;
     font-family: 'LatoWebBlack';
     font-size: 1.6em;
+    background: None; 
 }
 .andela-blue{
     background-color: rgb(51, 89, 223);
 }
-
 #andela-google-search {
     font-family: inherit;
     font-size: inherit;
@@ -31,6 +35,28 @@ a{
 .bottom-margin{
     margin-bottom: 20px;
 }
+
+#main-content{
+    padding: 20px;
+    color:rgb(255, 255, 255)
+}
+
+#main-content .sub-content{
+    text-align: center;
+    line-height: 20px;
+}
+.sub-content img{
+    width: 100%;
+}
+.sub-content .col-md-3{
+    padding-left: 0px;
+    
+}
+.title{
+    height: 250px;
+    border: 1px solid #fff;
+    overflow-y: visible;
+}
 #myCarousel .carousel-inner
 {
     width: 100%;
@@ -53,6 +79,10 @@ a{
 .carousel-caption p{
     font-family: 'LatoLight';
 }
+p{
+    font-weight: normal;
+    font-family: 'latolight';
+}
 p.start{
     font-family: 'LatoWebBlack';
 }
@@ -63,9 +93,10 @@ p.start{
 .nav-pills>li[data-slide-to="0"].active a,
 .nav-pills>li[data-slide-to="1"].active a,
 .nav-pills>li[data-slide-to="2"].active a,
-.nav-pills>li[data-slide-to="3"].active a { background-color: rgb(51, 89, 223); }
-.logo{ max-height: 46px; }
-
+.nav-pills>li[data-slide-to="3"].active a { background-color: rgb(51, 89, 223); 
+}
+.logo{ max-height: 46px; 
+}
 /* Webfont: Lato-Black */
 @font-face {
     font-family: 'LatoWebBlack';
